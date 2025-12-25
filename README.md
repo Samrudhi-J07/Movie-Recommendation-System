@@ -24,19 +24,21 @@ A content-based movie recommendation system using Natural Language Processing (N
 ---
 
 ---
+
+
 ## 🖼️ Application Screenshots
 
 ### 🏠 Home Page
 This is the landing page of the Movie Recommendation System.
 
-![Home Page](./images/HOME.png)
+![Home Page](./HOME.png)
 
 ---
 
 ### ⭐ Movie Recommendations
 This page displays recommended movies based on the selected genre.
 
-![Recommendations](./images/RECOMMENDATION.png)
+![Recommendations](./RECOMMENDATION.png)
 
 
 
