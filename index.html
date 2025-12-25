@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommendation</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="box">
+    <h1>🎬 Movie Recommendation System</h1>
+
+    <form method="POST">
+        <select name="genre" required>
+            <option value="">Select Movie Type</option>
+            <option value="Action Adventure">Action</option>
+            <option value="Comedy Romance">Comedy</option>
+            <option value="Animation Fantasy">Animation</option>
+            <option value="Drama">Drama</option>
+            <option value="Horror Thriller">Horror</option>
+            <option value="Sci-Fi">Sci-Fi</option>
+        </select>
+
+        <button type="submit">Show Movies</button>
+    </form>
+
+    {% if recommendations %}
+        <h3>Recommended Movies:</h3>
+        <ul>
+            {% for movie in recommendations %}
+                <li>{{ movie }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+
+</body>
+</html>

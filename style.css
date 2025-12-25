@@ -1,0 +1,26 @@
+body {
+    background-color: #1c1c1c;
+    font-family: Arial;
+    color: white;
+}
+
+.box {
+    width: 40%;
+    margin: 100px auto;
+    padding: 20px;
+    background: #2c2c2c;
+    border-radius: 10px;
+    text-align: center;
+}
+
+select, button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
